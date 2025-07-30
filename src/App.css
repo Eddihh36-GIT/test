@@ -1,0 +1,33 @@
+.app {
+  text-align: center;
+  padding: 2rem;
+  transition: background 0.3s, color 0.3s;
+  min-height: 100vh;
+}
+
+.light {
+  background: #ffffff;
+  color: #333;
+}
+
+.dark {
+  background: #222;
+  color: #eee;
+}
+
+.counter {
+  margin: 2rem 0;
+  font-size: 2rem;
+}
+
+.counter button {
+  font-size: 2rem;
+  margin: 0 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.actions button {
+  margin: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+}
