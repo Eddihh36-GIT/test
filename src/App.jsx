@@ -15,7 +15,9 @@ function App() {
   return (
     <div className={themeClass}>
       <h1>Mein kleiner Zähler</h1>
-
+    {/* Gelber Kreis */}
+    <YellowCircle />
+      
       <div className="counter">
         <button onClick={() => setCount(count - 1)}>-</button>
         <span>{count}</span>
