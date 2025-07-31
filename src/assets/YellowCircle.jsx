@@ -3,7 +3,7 @@ function YellowCircle() {
     <div style={{
       width: '100px',
       height: '100px',
-      backgroundColor: 'yellow',
+      backgroundColor: 'green',
       borderRadius: '50%',
       margin: '20px auto'
     }} />
